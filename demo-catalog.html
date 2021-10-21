@@ -88,6 +88,22 @@
                 >
             </a-entity>
           </a-nft>
+          <a-nft
+            type='nft' url='https://eyespan.github.io/arweb-catlogue-testq7a1ln/assets/silla/silla'
+            smooth='true' smoothCount='10' smoothTolerance='0.01' smoothThreshold='5'
+            raycaster="objects: .clickable"
+            emitevents="true"
+            cursor="fuse: false; rayOrigin: mouse;"
+            >
+            <a-entity
+                gltf-model='./assets/silla.glb'
+                scale="10 10 10"
+                position="100 50 0"
+                class="clickable"
+                gesture-handler="minScale:1 ; maxScale: 50" 
+                >
+            </a-entity>
+           </a-nft>
 		<a-entity camera></a-entity>
     </a-scene>
 </body>
